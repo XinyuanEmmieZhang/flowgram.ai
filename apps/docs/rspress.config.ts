@@ -14,9 +14,9 @@ export default defineConfig({
   base: '/',
   title: 'FlowGram.AI',
   globalStyles: path.join(__dirname, './global.less'),
-  route: {
-    exclude: ['./global.d.ts'],
-  },
+//  route: {
+//    exclude: ['./global.d.ts'],
+//  },
   server: {
     port: 5173,
     open: true,
