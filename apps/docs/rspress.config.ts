@@ -17,6 +17,10 @@ export default defineConfig({
   route: {
     exclude: ['./global.d.ts'],
   },
+    server: {
+    port: 5173,
+    open: true,
+    },
   builderConfig: {
     source: {
       decorators: {
