@@ -10,7 +10,7 @@ import { defineConfig } from 'rspress/config';
 // import { pluginLlms } from '@rspress/plugin-llms';
 
 export default defineConfig({
-  root: path.join(__dirname, 'src'),
+  root: path.resolve(__dirname),
   base: '/',
   title: 'FlowGram.AI',
   globalStyles: path.join(__dirname, './global.less'),
